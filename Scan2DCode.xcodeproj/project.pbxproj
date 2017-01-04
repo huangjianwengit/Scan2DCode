@@ -15,6 +15,14 @@
 		2D04E75F1E1CD35E00A4C11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E75D1E1CD35E00A4C11E /* LaunchScreen.storyboard */; };
 		2D04E76A1E1CD35F00A4C11E /* Scan2DCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04E7691E1CD35F00A4C11E /* Scan2DCodeTests.m */; };
 		2D04E7751E1CD35F00A4C11E /* Scan2DCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04E7741E1CD35F00A4C11E /* Scan2DCodeUITests.m */; };
+		2D04E78B1E1CD3F600A4C11E /* lightNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E7831E1CD3F600A4C11E /* lightNormal.png */; };
+		2D04E78C1E1CD3F600A4C11E /* lightSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E7841E1CD3F600A4C11E /* lightSelect.png */; };
+		2D04E78D1E1CD3F600A4C11E /* noticeMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E7851E1CD3F600A4C11E /* noticeMusic.wav */; };
+		2D04E78E1E1CD3F600A4C11E /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04E7871E1CD3F600A4C11E /* QRCodeReaderView.m */; };
+		2D04E78F1E1CD3F600A4C11E /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E7881E1CD3F600A4C11E /* scanLine@2x.png */; };
+		2D04E7901E1CD3F600A4C11E /* scanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E7891E1CD3F600A4C11E /* scanLine@3x.png */; };
+		2D04E7911E1CD3F600A4C11E /* scanscanBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D04E78A1E1CD3F600A4C11E /* scanscanBg.png */; };
+		2D04E7941E1CD4E400A4C11E /* JHScanQCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04E7931E1CD4E400A4C11E /* JHScanQCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		2D04E7701E1CD35F00A4C11E /* Scan2DCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scan2DCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D04E7741E1CD35F00A4C11E /* Scan2DCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scan2DCodeUITests.m; sourceTree = "<group>"; };
 		2D04E7761E1CD35F00A4C11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D04E7831E1CD3F600A4C11E /* lightNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightNormal.png; sourceTree = "<group>"; };
+		2D04E7841E1CD3F600A4C11E /* lightSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightSelect.png; sourceTree = "<group>"; };
+		2D04E7851E1CD3F600A4C11E /* noticeMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noticeMusic.wav; sourceTree = "<group>"; };
+		2D04E7861E1CD3F600A4C11E /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		2D04E7871E1CD3F600A4C11E /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		2D04E7881E1CD3F600A4C11E /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
+		2D04E7891E1CD3F600A4C11E /* scanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@3x.png"; sourceTree = "<group>"; };
+		2D04E78A1E1CD3F600A4C11E /* scanscanBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanscanBg.png; sourceTree = "<group>"; };
+		2D04E7921E1CD4E400A4C11E /* JHScanQCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScanQCodeViewController.h; sourceTree = "<group>"; };
+		2D04E7931E1CD4E400A4C11E /* JHScanQCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScanQCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +119,14 @@
 		2D04E74E1E1CD35E00A4C11E /* Scan2DCode */ = {
 			isa = PBXGroup;
 			children = (
+				2D04E7821E1CD3F600A4C11E /* 二维码扫描 */,
 				2D04E7521E1CD35E00A4C11E /* AppDelegate.h */,
 				2D04E7531E1CD35E00A4C11E /* AppDelegate.m */,
 				2D04E7551E1CD35E00A4C11E /* ViewController.h */,
 				2D04E7561E1CD35E00A4C11E /* ViewController.m */,
 				2D04E7581E1CD35E00A4C11E /* Main.storyboard */,
+				2D04E7921E1CD4E400A4C11E /* JHScanQCodeViewController.h */,
+				2D04E7931E1CD4E400A4C11E /* JHScanQCodeViewController.m */,
 				2D04E75B1E1CD35E00A4C11E /* Assets.xcassets */,
 				2D04E75D1E1CD35E00A4C11E /* LaunchScreen.storyboard */,
 				2D04E7601E1CD35E00A4C11E /* Info.plist */,
@@ -138,6 +159,21 @@
 				2D04E7761E1CD35F00A4C11E /* Info.plist */,
 			);
 			path = Scan2DCodeUITests;
+			sourceTree = "<group>";
+		};
+		2D04E7821E1CD3F600A4C11E /* 二维码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				2D04E7831E1CD3F600A4C11E /* lightNormal.png */,
+				2D04E7841E1CD3F600A4C11E /* lightSelect.png */,
+				2D04E7851E1CD3F600A4C11E /* noticeMusic.wav */,
+				2D04E7881E1CD3F600A4C11E /* scanLine@2x.png */,
+				2D04E7891E1CD3F600A4C11E /* scanLine@3x.png */,
+				2D04E78A1E1CD3F600A4C11E /* scanscanBg.png */,
+				2D04E7861E1CD3F600A4C11E /* QRCodeReaderView.h */,
+				2D04E7871E1CD3F600A4C11E /* QRCodeReaderView.m */,
+			);
+			path = "二维码扫描";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D04E75F1E1CD35E00A4C11E /* LaunchScreen.storyboard in Resources */,
+				2D04E7911E1CD3F600A4C11E /* scanscanBg.png in Resources */,
+				2D04E78F1E1CD3F600A4C11E /* scanLine@2x.png in Resources */,
+				2D04E7901E1CD3F600A4C11E /* scanLine@3x.png in Resources */,
 				2D04E75C1E1CD35E00A4C11E /* Assets.xcassets in Resources */,
+				2D04E78D1E1CD3F600A4C11E /* noticeMusic.wav in Resources */,
 				2D04E75A1E1CD35E00A4C11E /* Main.storyboard in Resources */,
+				2D04E78B1E1CD3F600A4C11E /* lightNormal.png in Resources */,
+				2D04E78C1E1CD3F600A4C11E /* lightSelect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D04E7571E1CD35E00A4C11E /* ViewController.m in Sources */,
+				2D04E7941E1CD4E400A4C11E /* JHScanQCodeViewController.m in Sources */,
+				2D04E78E1E1CD3F600A4C11E /* QRCodeReaderView.m in Sources */,
 				2D04E7541E1CD35E00A4C11E /* AppDelegate.m in Sources */,
 				2D04E7511E1CD35E00A4C11E /* main.m in Sources */,
 			);

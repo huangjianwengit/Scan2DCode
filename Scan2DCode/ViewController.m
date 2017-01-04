@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "JHScanQCodeViewController.h"
 @interface ViewController ()
 
 @end
@@ -23,6 +23,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)scanButtonEvent:(id)sender {
+    JHScanQCodeViewController * sqVC = [[JHScanQCodeViewController alloc]init];
+    UINavigationController * nVC = [[UINavigationController alloc]initWithRootViewController:sqVC];
+    [self presentViewController:nVC animated:YES completion:^{
+        
+    }];
+
 }
 
 
